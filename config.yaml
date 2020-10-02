@@ -1,0 +1,3 @@
+---
+pcap_path: "D:/Documents/Classes_F20/Network_Security/arp_spoof.pcap"  # A path to a PCAP file
+ipv4_fragment_reassembly: "first"   # Or "last", "linux"
