@@ -2,87 +2,109 @@
 timestamp: 1600195789
 source:
   mac_address: aa:ff:26:f9:65:78
-  ipv4_address: None
-  tcp_port: None
+  ipv4_address: null
+  tcp_port: null
 target:
   mac_address: ba:8e:9e:82:26:0e
-  ipv4_address: None
-  tcp_port: None
+  ipv4_address: null
+  tcp_port: null
 attack: arp_cache_poisoning
 ---
 timestamp: 1600195791
 source:
   mac_address: aa:ff:26:f9:65:78
-  ipv4_address: None
-  tcp_port: None
+  ipv4_address: null
+  tcp_port: null
 target:
   mac_address: ba:8e:9e:82:26:0e
-  ipv4_address: None
-  tcp_port: None
+  ipv4_address: null
+  tcp_port: null
 attack: arp_cache_poisoning
 ---
 timestamp: 1600195793
 source:
   mac_address: aa:ff:26:f9:65:78
-  ipv4_address: None
-  tcp_port: None
+  ipv4_address: null
+  tcp_port: null
 target:
   mac_address: ba:8e:9e:82:26:0e
-  ipv4_address: None
-  tcp_port: None
+  ipv4_address: null
+  tcp_port: null
 attack: arp_cache_poisoning
 ---
 timestamp: 1600195795
 source:
   mac_address: aa:ff:26:f9:65:78
-  ipv4_address: None
-  tcp_port: None
+  ipv4_address: null
+  tcp_port: null
 target:
   mac_address: ba:8e:9e:82:26:0e
-  ipv4_address: None
-  tcp_port: None
+  ipv4_address: null
+  tcp_port: null
 attack: arp_cache_poisoning
 ---
 timestamp: 1600195797
 source:
   mac_address: aa:ff:26:f9:65:78
-  ipv4_address: None
-  tcp_port: None
+  ipv4_address: null
+  tcp_port: null
 target:
   mac_address: ba:8e:9e:82:26:0e
-  ipv4_address: None
-  tcp_port: None
+  ipv4_address: null
+  tcp_port: null
 attack: arp_cache_poisoning
 ---
 timestamp: 1600195799
 source:
   mac_address: aa:ff:26:f9:65:78
-  ipv4_address: None
-  tcp_port: None
+  ipv4_address: null
+  tcp_port: null
 target:
   mac_address: ba:8e:9e:82:26:0e
-  ipv4_address: None
-  tcp_port: None
+  ipv4_address: null
+  tcp_port: null
 attack: arp_cache_poisoning
 ---
 timestamp: 1600195801
 source:
   mac_address: aa:ff:26:f9:65:78
-  ipv4_address: None
-  tcp_port: None
+  ipv4_address: null
+  tcp_port: null
 target:
   mac_address: ba:8e:9e:82:26:0e
-  ipv4_address: None
-  tcp_port: None
+  ipv4_address: null
+  tcp_port: null
 attack: arp_cache_poisoning
 ---
 timestamp: 1600195803
 source:
   mac_address: aa:ff:26:f9:65:78
-  ipv4_address: None
-  tcp_port: None
+  ipv4_address: null
+  tcp_port: null
 target:
   mac_address: ba:8e:9e:82:26:0e
-  ipv4_address: None
-  tcp_port: None
+  ipv4_address: null
+  tcp_port: null
+attack: arp_cache_poisoning
+---
+timestamp: 1600195805
+source:
+  mac_address: aa:ff:26:f9:65:78
+  ipv4_address: null
+  tcp_port: null
+target:
+  mac_address: ba:8e:9e:82:26:0e
+  ipv4_address: null
+  tcp_port: null
+attack: arp_cache_poisoning
+---
+timestamp: 1600195807
+source:
+  mac_address: aa:ff:26:f9:65:78
+  ipv4_address: null
+  tcp_port: null
+target:
+  mac_address: ba:8e:9e:82:26:0e
+  ipv4_address: null
+  tcp_port: null
 attack: arp_cache_poisoning
