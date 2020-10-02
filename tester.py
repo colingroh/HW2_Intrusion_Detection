@@ -27,12 +27,12 @@ if 'ipv4_fragment_reassembly' in config:
 def snitch(target: Packet):
 	timestamp = int(target.time)
 	s_mac = target[Ether].src
-	s_ip = None
-	s_port = None
+	s_ip = 'null'
+	s_port = 'null'
 
 	t_mac = target[Ether].dst
-	t_ip = None
-	t_port = None
+	t_ip = 'null'
+	t_port = 'null'
 
 	attack = 'silly string'
 
