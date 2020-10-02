@@ -10,14 +10,10 @@ import sys
 import yaml
 from scapy.plist import PacketList
 
-placeholder = 'config.yaml'
-# TODO TODO TODO
-with open(placeholder) as file:
+with open(sys.argv[1]) as file:
 	config = yaml.load(file, Loader=yaml.FullLoader)
 
 ip_frag_schema: str
-pcap_location = 'D:/Documents/Classes_F20/Network_Security/Homeworks/HW2-Intrusion/pod.pcap'
-pcap_2 = 'D:/Documents/Classes_F20/Network_Security/arp_spoof.pcap'
 if 'pcap_path' in config:
 	FILE = rdpcap(config['pcap_path'])
 if 'ipv4_fragment_reassembly' in config:
@@ -85,16 +81,15 @@ def pod_detector(target: Packet, session: PacketList, sesh_ip: PacketList):
 
 	for datum in sesh_ip:
 		ping_size += datum[IP].len - (datum[IP].ihl * 4)
-
+	#snitches if the packet exceeds the ping of death
 	if 65535 <= ping_size:
 		snitch(target)
 
 
-# TODO snitch on the ICMP echo ping (of death) if found
 
 
 def main():
-	# TODO sniffs packets and sorts them like the Willy Wonka Geese
+	# sniffs packets and sorts them like the Willy Wonka Geese
 	egg: Packet
 	convos = FILE.sessions()
 	for egg in FILE:
