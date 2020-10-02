@@ -25,7 +25,7 @@ if 'ipv4_fragment_reassembly' in config:
 
 
 def snitch(target: Packet):
-	timestamp = target.time
+	timestamp = int(target.time)
 	s_mac = target[Ether].src
 	s_ip = None
 	s_port = None
@@ -102,8 +102,6 @@ def main():
 			poison_detector(egg)
 		elif ICMP in egg:
 			if egg[ICMP].type == 0:
-				# From here https://pen-testing.sans.org/blog/2017/10/13/scapy-full-duplex-stream-reassembly
-				# Formatting for the sessions() dict key
 				key_ping = ("ICMP " + str(egg[IP].src) + " > " + str(egg[IP].dst) + " type=" + str(
 					egg[ICMP].type) + " code=" + str(egg[ICMP].code) + " id=" + str(hex(egg[ICMP].id)))
 				key_ip = ("IP " + str(egg[IP].src) + " > " + str(egg[IP].dst) + " proto=icmp")
